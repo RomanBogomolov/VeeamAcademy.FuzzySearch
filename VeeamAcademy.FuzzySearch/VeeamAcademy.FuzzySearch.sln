@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27428.2011
+VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeeamAcademy.FuzzySearch", "VeeamAcademy.FuzzySearch\VeeamAcademy.FuzzySearch.csproj", "{785A2DF9-C0B4-4D89-90DE-1CA715BF284B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeeamAcademy.FuzzySearch.ConsoleApp", "VeeamAcademy.FuzzySearch.ConsoleApp\VeeamAcademy.FuzzySearch.ConsoleApp.csproj", "{18008085-DA4D-40F7-9D6F-E1B402BEA552}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeeamAcademy.FuzzySearch.Tests", "VeeamAcademy.FuzzySearch.Tests\VeeamAcademy.FuzzySearch.Tests.csproj", "{CD724329-EF39-4538-9828-1D9A63A34E26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{785A2DF9-C0B4-4D89-90DE-1CA715BF284B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{785A2DF9-C0B4-4D89-90DE-1CA715BF284B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{785A2DF9-C0B4-4D89-90DE-1CA715BF284B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18008085-DA4D-40F7-9D6F-E1B402BEA552}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18008085-DA4D-40F7-9D6F-E1B402BEA552}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18008085-DA4D-40F7-9D6F-E1B402BEA552}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18008085-DA4D-40F7-9D6F-E1B402BEA552}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD724329-EF39-4538-9828-1D9A63A34E26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD724329-EF39-4538-9828-1D9A63A34E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD724329-EF39-4538-9828-1D9A63A34E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD724329-EF39-4538-9828-1D9A63A34E26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

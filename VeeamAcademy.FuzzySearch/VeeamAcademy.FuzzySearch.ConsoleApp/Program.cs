@@ -10,6 +10,14 @@ namespace VeeamAcademy.FuzzySearch.ConsoleApp
     {
         static void Main(string[] args)
         {
+            var distance = new CFuzzySearch();
+            var b = new List<Tuple<string, string>>();
+            b.Add(new Tuple<string, string>("привет",""));
+            b.Add(new Tuple<string, string>("пока",""));
+            b.Add(new Tuple<string, string>("privet",""));
+            distance.SetData(b);
+            var a = distance.Search("прив");
+            
         }
     }
 }

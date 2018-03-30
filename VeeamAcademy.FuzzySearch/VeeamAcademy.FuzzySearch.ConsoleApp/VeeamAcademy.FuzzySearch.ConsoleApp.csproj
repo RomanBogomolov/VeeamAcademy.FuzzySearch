@@ -48,5 +48,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\VeeamAcademy.FuzzySearch\VeeamAcademy.FuzzySearch.csproj">
+      <Project>{785a2df9-c0b4-4d89-90de-1ca715bf284b}</Project>
+      <Name>VeeamAcademy.FuzzySearch</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
